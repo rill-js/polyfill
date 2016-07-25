@@ -23,13 +23,13 @@ app.get('/polyfill.js.min', polyfill({ minify: true }))
 
 #### In the browser
 
-```js
+```html
 <script src="/polyfill.js.min"></script>
 ```
 
 # API Options/Defaults
 
-```
+```js
 {
 	// The cache time for the polyfill file (string or number of seconds).
 	maxage: '1 year',

@@ -1,12 +1,36 @@
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-[![Chat about Rill at https://gitter.im/rill-js/rill](https://badges.gitter.im/rill-js/rill.svg)](https://gitter.im/rill-js/rill?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<h1 align="center">
+  <!-- Logo -->
+  <img src="https://raw.githubusercontent.com/rill-js/rill/master/Rill-Icon.jpg" alt="Rill"/>
+  <br/>
+  @rill/polyfill
+	<br/>
 
-# Rill Polyfill
+  <!-- Stability -->
+  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
+    <img src="https://img.shields.io/badge/stability-stable-brightgreen.svg?style=flat-square" alt="API stability"/>
+  </a>
+  <!-- Standard -->
+  <a href="https://github.com/feross/standard">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square" alt="Standard"/>
+  </a>
+  <!-- NPM version -->
+  <a href="https://npmjs.org/package/@rill/polyfill">
+    <img src="https://img.shields.io/npm/v/@rill/polyfill.svg?style=flat-square" alt="NPM version"/>
+  </a>
+  <!-- Downloads -->
+  <a href="https://npmjs.org/package/@rill/polyfill">
+    <img src="https://img.shields.io/npm/dm/@rill/polyfill.svg?style=flat-square" alt="Downloads"/>
+  </a>
+  <!-- Gitter Chat -->
+  <a href="https://gitter.im/rill-js/rill">
+    <img src="https://img.shields.io/gitter/room/rill-js/rill.svg?style=flat-square" alt="Gitter Chat"/>
+  </a>
+</h1>
+
 A small wrapper around [polyfill-service](https://github.com/Financial-Times/polyfill-service) which allows automatic user-agent based polyfills to be sent with Rill.
 
 # Installation
 
-#### Npm
 ```console
 npm install @rill/polyfill
 ```
@@ -14,8 +38,8 @@ npm install @rill/polyfill
 # Example
 
 ```js
-const app = rill()
-const polyfill = require("@rill/polyfill")
+const app = require('rill')()
+const polyfill = require('@rill/polyfill')
 
 // Setup route to send the polyfill.
 app.get('/polyfill.js.min', polyfill({ minify: true }))

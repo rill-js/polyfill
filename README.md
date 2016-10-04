@@ -29,13 +29,13 @@
 
 A small wrapper around [polyfill-service](https://github.com/Financial-Times/polyfill-service) which allows automatic user-agent based polyfills to be sent with Rill.
 
-# Installation
+## Installation
 
 ```console
 npm install @rill/polyfill
 ```
 
-# Example
+## Example
 
 ```js
 const app = require('rill')()

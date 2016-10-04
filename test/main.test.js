@@ -23,7 +23,7 @@ test('Get polyfills from chrome', function (t) {
     .set('User-Agent', MAC_CHROME_UA)
     .expect(200)
     .then(function (res) {
-      t.equals(res.text, NORMAL_EXAMPLE, 'polyfill normal')
+      t.equals(res.text, NORMAL_EXAMPLE.trim(), 'polyfill normal')
     }, t.fail)
 
   request
@@ -31,6 +31,6 @@ test('Get polyfills from chrome', function (t) {
     .set('User-Agent', MAC_CHROME_UA)
     .expect(200)
     .then(function (res) {
-      t.equals(res.text, MINIFIED_EXAMPLE, 'polyfill minified')
+      t.equals(res.text, MINIFIED_EXAMPLE.trim(), 'polyfill minified')
     }, t.fail)
 })

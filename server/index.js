@@ -8,7 +8,7 @@ var polyfill = require('polyfill-service')
  */
 module.exports = function (options) {
   options = options || {}
-  var features = 'features' in options ? options.features : { default: {} }
+  var features = 'features' in options ? options.features : { default: { flags: [] } }
   var minify = 'minify' in options ? options.minify : true
   var unknown = 'unknown' in options ? options.unknown : true
   var maxage = options.maxage || '1 year'

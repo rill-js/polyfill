@@ -4,7 +4,7 @@
  * UA detected: chrome/51.0.0
  * Features requested: default
  * 
- * - _mutation, License: CC0 (required by "Element.prototype.after", "Element.prototype.append", "Element.prototype.before", "Element.prototype.prepend", "Element.prototype.replaceWith", "default")
+ * - _mutation, License: CC0 (required by "Element.prototype.after", "Element.prototype.append", "Element.prototype.before", "Element.prototype.prepend", "Element.prototype.remove", "Element.prototype.replaceWith", "default")
  * - Element.prototype.after, License: CC0 (required by "default")
  * - Element.prototype.append, License: CC0 (required by "default")
  * - Element.prototype.before, License: CC0 (required by "default")

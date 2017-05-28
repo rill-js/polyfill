@@ -6,13 +6,13 @@
   "browser": "client/index.js",
   "bugs": "https://github.com/rill-js/polyfill/issues",
   "dependencies": {
-    "ms": "^0.7.2",
-    "polyfill-service": "^3.16.0"
+    "ms": "^2.0.0",
+    "polyfill-service": "^3.18.0"
   },
   "devDependencies": {
-    "rill": "^3.0.2",
-    "snazzy": "^6.0.0",
-    "standard": "^8.6.0",
+    "rill": "^5.0.0",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.2",
     "supertest": "^3.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"

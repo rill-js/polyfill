@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/rill-js/rill/master/Rill-Icon.jpg" alt="Rill"/>
   <br/>
   @rill/polyfill
-	<br/>
+  <br/>
 
   <!-- Stability -->
   <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
@@ -55,16 +55,16 @@ app.get('/polyfill.js.min', polyfill({ minify: true }))
 
 ```js
 {
-	// The cache time for the polyfill file (string or number of seconds).
-	maxage: '1 year',
-	// Enable or disable minification.
-	minify: true,
-	// Enable or disable polyfilling unknown user agents.
-	unknown: true,
-	// Array of excluded features.
-	excludes: undefined,
-	// Object containing the features to pollyfill (defaults to all).
-	features: undefined
+  // The cache time for the polyfill file (string or number of seconds).
+  maxage: '1 year',
+  // Enable or disable minification.
+  minify: true,
+  // Enable or disable polyfilling unknown user agents.
+  unknown: true,
+  // Array of excluded features.
+  excludes: undefined,
+  // Object containing the features to pollyfill (defaults to all).
+  features: undefined
 }
 ```
 
